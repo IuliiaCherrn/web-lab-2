@@ -148,14 +148,14 @@ function increaseEnthusiasm($str)
 {
     return ($str."!");
 }
-echo increaseEnthusiasm("i want to sleep"), "\n";
+echo increaseEnthusiasm("amazing lab work"), "\n";
 
 function repeatThreeTimes($str)
 {
     return ($str.$str.$str);
 }
-echo repeatThreeTimes("u watched star trek?"), "\n";
-echo increaseEnthusiasm(repeatThreeTimes("oh no u didnt")), "\n";
+echo repeatThreeTimes("What is your name?"), "\n";
+echo increaseEnthusiasm(repeatThreeTimes("me too")), "\n";
 
 function cut($str, $num, $default=10)
 {
@@ -262,10 +262,10 @@ $arr = array(2,5,3,9);
 $result = $arr[0]*$arr[1] + $arr[2]*$arr[3];
 echo "result = ", $result, "\n";
 
-$user = array('name'=>'Евгений', 'surname' => 'Рис', 'patronymic' => 'Курьевич');
+$user = array('name'=>'Юлия', 'surname' => 'Черницына', 'patronymic' => 'Анатольевна');
 echo $user['surname'], " ", $user['name'], " ", $user['patronymic'], "\n";
 
-$date = array('year' => 2023, 'month' => 03, 'day' => 10);
+$date = array('year' => 2023, 'month' => 03, 'day' => 23);
 echo $date['year'], ".", $date['month'], ".", $date['day'], "\n";
 
 $arr = ['a', 'b', 'c', 'd', 'e'];
